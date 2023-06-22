@@ -1,0 +1,43 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 1 rem;
+  font-weight: 400;
+
+}
+
+img{
+display: block;
+}
+
+.container{
+  width: 90;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: #ddd;
+  padding: 1rem 0;
+}
+
+.header-container{
+  display: felx;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  margin-left: 2 rem;
+}
+
