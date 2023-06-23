@@ -41,3 +41,40 @@ nav li{
   margin-left: 2 rem;
 }
 
+#subbanner-container {
+  display: flex;
+}
+
+#subbanner-container img {
+  width: 300px;
+  height: 375px;
+  margin-right: 10px; /* Optional: Add some spacing between the boxes */
+}
+
+#main-container {
+  display: flex;
+}
+
+#main-container img {
+width: 960px;
+height: 450px;
+margin-right: 10px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center; /* Optional: Align items vertically in the center */
+}
+
+.nav-links {
+  margin-left: 10px; /* Optional: Add some spacing between the logo and the list */
+}
+
+.nav-links li {
+  list-style: none; /* Remove bullet points from list items */
+  margin-bottom: 5px; /* Optional: Add some vertical spacing between list items */
+}
+
+.nav-links li a {
+  text-decoration: none; 
+}
